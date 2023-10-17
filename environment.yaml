@@ -1,0 +1,55 @@
+name: cancer_risk
+channels: 
+  - conda-forge
+  - defaults
+dependencies:
+  # python
+  - adjusttext
+  - ipykernel
+  - ipython
+  - openpyxl
+  - pandas
+  - patchworklib
+  - plotnine=0.10.1
+  - pyarrow
+  - pytables
+  - python
+  - pytest
+  - requests
+  - scipy
+  - seaborn
+  - statsmodels
+  - tabula-py
+  - tqdm
+
+  # R
+  - bioconductor-complexheatmap
+  - bioconductor-ggtree
+  - bioconductor-rtracklayer
+  - radian
+  - r-arrow
+  - r-base
+  - r-concaveman # for ggforce
+  - r-data.table
+  - r-dbscan
+  - r-furrr
+  - r-ggally
+  - r-ggforce
+  - r-ggpubr
+  - r-ggraph
+  - r-gplots
+  - r-gtable
+  - r-hmisc
+  - r-httpgd
+  - r-irkernel
+  - r-label.switching
+  - r-languageserver
+  - r-microbenchmark
+  - r-philentropy
+  - r-rcolorbrewer
+  - r-reticulate
+  - r-svglite
+  - r-tidygraph
+  - r-tidyverse
+  - r-vgam
+  - r-xtable
